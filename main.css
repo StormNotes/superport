@@ -3,6 +3,8 @@
 body { 
   margin: 0;
   font-family: 'Aref Ruqaa', serif;  
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 .header {
@@ -93,6 +95,30 @@ body {
 }
 .icons{
     display: inline;
+    
+}
+
+.gback{
+    float: right;
+    
+}
+
+.gback h2{
+    padding: 10px;
+    margin-top: 20px;    
+    border: 2px solid black;
+    border-radius: 20px;
+    background: rgba(156, 158, 182, 0.623);
+    transition:1.5s;
+}
+.gback h2:hover{
+    color:white;
+    background: hsl(199, 91%, 71%);
+}
+.gback a{   
+    color: #000;
+    text-decoration: none;
+    
 }
 .copyr{
     display: none;
