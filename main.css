@@ -32,8 +32,9 @@ body {
 }
 
 .header a:hover {
-  background-color: #ddd;
-  color: black;
+  transition: 1.2s;
+  background-color:  #7880d8;
+  color:  #ffffff;
 }
 
 .header-right {
